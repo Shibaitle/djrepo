@@ -9,6 +9,7 @@ on:
     paths:
 
       - "backend/**" # ทำงานเฉพาะเมื่อแก้ backend
+      # - ".github/workflows/react.yml"
 
   pull_request:
 
@@ -17,6 +18,7 @@ on:
     paths:
 
       - "backend/**"
+      # - ".github/workflows/react.yml"
 
 jobs:
 

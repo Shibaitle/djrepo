@@ -9,6 +9,7 @@ on:
     paths:
 
       - "frontend/**" # เฉพาะไฟล์ Frontend
+      - ".github/workflows/django.yml"
 
   pull_request:
 
@@ -17,6 +18,7 @@ on:
     paths:
 
       - "frontend/**"
+      - ".github/workflows/django.yml"
 
 jobs:
 
